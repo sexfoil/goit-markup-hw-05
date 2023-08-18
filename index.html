@@ -471,15 +471,18 @@
         <div class="footer-subscribe">
           <p class="text-body">Subscribe</p>
           <form class="subscribe-items">
-            <input
-              class="input text-small-text"
-              type="email"
-              name="subscribe-email"
-              placeholder="E-mail"
-            />
+            <label class="subscribe-label">
+              <input
+                class="input text-small-text"
+                type="email"
+                name="subscribe-email"
+                placeholder="E-mail"
+              />
+            </label>
+
             <button class="btn subscribe-btn text-button-text" type="submit">
               Subscribe
-              <svg class="social-icon-image" width="24" height="24">
+              <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
             </button>
@@ -503,7 +506,7 @@
 
           <form class="modal-form" name="order-service-form">
             <label class="modal-label">
-              <p class="modal-label-desc text-small-text">Name</p>
+              <span class="modal-label-desc text-small-text">Name</span>
               <span class="modal-input-wraper">
                 <input
                   class="modal-input"
@@ -519,7 +522,7 @@
             </label>
 
             <label class="modal-label">
-              <p class="modal-label-desc text-small-text">Phone</p>
+              <span class="modal-label-desc text-small-text">Phone</span>
               <span class="modal-input-wraper">
                 <input
                   class="modal-input"
@@ -534,7 +537,7 @@
             </label>
 
             <label class="modal-label">
-              <p class="modal-label-desc text-small-text">Email</p>
+              <span class="modal-label-desc text-small-text">Email</span>
               <span class="modal-input-wraper">
                 <input
                   class="modal-input"
@@ -549,7 +552,7 @@
             </label>
 
             <label class="modal-label text-area">
-              <p class="modal-label-desc text-small-text">Comment</p>
+              <span class="modal-label-desc text-small-text">Comment</span>
               <textarea
                 class="modal-desc text-small-text"
                 placeholder="Text input"
